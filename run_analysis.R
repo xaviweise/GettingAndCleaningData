@@ -17,7 +17,6 @@ run_analysis <- function(path)
   features <- read.table(paste(path, "/features.txt", sep=""))  
   activity_labels <- read.table(paste(path, "/activity_labels.txt", sep=""))
   
-  
   # Add features labels to X_test and X_train, and descriptive names to Y and subject 
   names(X_test) <- features$V2
   names(X_train) <- features$V2
