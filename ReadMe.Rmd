@@ -1,0 +1,19 @@
+Read Me document
+========================================================
+This document describes the script run_analysis.R 
+The script takes a dataset from the "Human Activity Recongition Using Smartphones Dataset" and process the raw data to get a tidy dataset
+
+Instructions
+- Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip the file
+- The data is composed of two datasets, train and test, that should be placed in folders /train and /test, respectively
+- Run the run_analysis.R script from R (it must be imported with source("script file") command). The script has as input the path to the folder containing both the /train and /test folders
+- The script will generate in this path a file, "tidy_data_set.txt", with the results described below
+
+The Tidy Data Set
+- In the original dataset, the observations of 30 subjects performing six different activities wearing a smartphone on their waist, were divided randomly by subject in two sets, train (70% of the subjects) and train (30% of the subjects). For each set, three files were provided, X_test.txt / X_train.txt, with the different variables observed during the activities for every subject, Y_test.txt / Y_train.txt, identifying the activity with a numeric code, and subject_test.txt/subject_train.txt, with a numeric code identifying the subject
+- The tidy data set has been obtained from this files by:
+1. Merging the test and train datasets into a single one
+2. Identifying the activities performed by a verbal description instead of a numeric code. For the translation, see Codebook.Rmd
+3. From the total number of estimations taken from the observations, only the estimations of mean and standard deviation are selected, which add to 66 types of observations. The different observations are described Codebook.Rmd
+4. The tidy data set contains the mean per subject of activity of those observations, in a total of 180 combinations. Subjects are identified by a number, activities by a verbal description. 
+

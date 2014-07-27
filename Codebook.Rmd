@@ -1,0 +1,141 @@
+Codebook
+========================================================
+
+ [1] "Subject"
+      A number between 1 and 30 that identifies the subject that took the observations. 
+ [2] "Activity"         
+      A string with a description of the activity performed by the subject. There are six types of activities
+      WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+ [3] "Mean of Body Acceleration Signal in the X direction"                  
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+ [4] "Mean of Body Acceleration Signal in the Y direction"    
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+ [5] "Mean of Body Acceleration Signal in the Z direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+ [6] "Mean of Gravity Acceleration Signal in the X direction"      
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+ [7] "Mean of Gravity Acceleration Signal in the Y direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+ [8] "Mean of Gravity Acceleration Signal in the Z direction"             
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+ [9] "Mean of Jerk Signal of Body Acceleration in the X direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[10] "Mean of Jerk Signal of Body Acceleration in the Y direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[11] "Mean of Jerk Signal of Body Acceleration in the Z direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[12] "Mean of Body Angular Velocity Signal in the X direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[13] "Mean of Body Angular Velocity Signal in the Y direction"    
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[14] "Mean of Body Angular Velocity Signal in the Z direction"    
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[15] "Mean of Jerk Signal of Body Angular Velocity in the X direction"      
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[16] "Mean of Jerk Signal of Body Angular Velocity in the Y direction"   
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[17] "Mean of Jerk Signal of Body Angular Velocity in the Z direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[18] "Mean of Magnitude of Body Acceleration Signal"                  
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[19] "Mean of Magnitude of Gravity Acceleration Signal"               
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[20] "Mean of Magnitude of Jerk Signal of Body Acceleration"          
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[21] "Mean of Magnitude of Body Angular Velocity Signal"         
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[22] "Mean of Magnitude of Jerk Signal of Body Angular Velocity"   
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[23] "Mean of FFT of Body Acceleration Signal in the X direction"    
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[24] "Mean of FFT of Body Acceleration Signal in the Y direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[25] "Mean of FFT of Body Acceleration Signal in the Z direction"      
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[26] "Mean of FFT of Jerk Signal of Body Angular Velocity in the X direction"
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[27] "Mean of FFT of Jerk Signal of Body Angular Velocity in the Y direction"
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[28] "Mean of FFT of Jerk Signal of Body Angular Velocity in the Z direction"
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[29] "Mean of FFT of Body Angular Velocity Signal in the X direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[30] "Mean of FFT of Body Angular Velocity Signal in the Y direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[31] "Mean of FFT of Body Angular Velocity Signal in the Z direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[32] "Mean of FFT of Magnitude of Body Acceleration Signal"             
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[33] "Mean of FFT of Magnitude of Jerk Signal of Body Acceleration"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[34] "Mean of FFT of Magnitude of Body Angular Velocity Signal"            
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[35] "Mean of FFT of Magnitude of Jerk Signal of Body Angular Velocity"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[36] "Std of Body Acceleration Signal in the X direction"                    
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[37] "Std of Body Acceleration Signal in the Y direction"                  
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[38] "Std of Body Acceleration Signal in the Z direction"                 
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[39] "Std of Gravity Acceleration Signal in the X direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[40] "Std of Gravity Acceleration Signal in the Y direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[41] "Std of Gravity Acceleration Signal in the Z direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[42] "Std of Jerk Signal of Body Acceleration in the X direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[43] "Std of Jerk Signal of Body Acceleration in the Y direction"     
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[44] "Std of Jerk Signal of Body Acceleration in the Z direction"      
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[45] "Std of Body Angular Velocity Signal in the X direction"           
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[46] "Std of Body Angular Velocity Signal in the Y direction"           
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[47] "Std of Body Angular Velocity Signal in the Z direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[48] "Std of Jerk Signal of Body Angular Velocity in the X direction"   
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[49] "Std of Jerk Signal of Body Angular Velocity in the Y direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[50] "Std of Jerk Signal of Body Angular Velocity in the Z direction"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[51] "Std of Magnitude of Body Acceleration Signal"                          
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[52] "Std of Magnitude of Gravity Acceleration Signal"                       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[53] "Std of Magnitude of Jerk Signal of Body Acceleration"                 
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[54] "Std of Magnitude of Body Angular Velocity Signal"                      
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[55] "Std of Magnitude of Jerk Signal of Body Angular Velocity"        
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[56] "Std of FFT of Body Acceleration Signal in the X direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[57] "Std of FFT of Body Acceleration Signal in the Y direction"         
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[58] "Std of FFT of Body Acceleration Signal in the Z direction"         
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[59] "Std of FFT of Jerk Signal of Body Angular Velocity in the X direction" 
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[60] "Std of FFT of Jerk Signal of Body Angular Velocity in the Y direction" 
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[61] "Std of FFT of Jerk Signal of Body Angular Velocity in the Z direction" 
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[62] "Std of FFT of Body Angular Velocity Signal in the X direction"          
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[63] "Std of FFT of Body Angular Velocity Signal in the Y direction"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[64] "Std of FFT of Body Angular Velocity Signal in the Z direction"    
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[65] "Std of FFT of Magnitude of Body Acceleration Signal"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[66] "Std of FFT of Magnitude of Jerk Signal of Body Acceleration"   
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[67] "Std of FFT of Magnitude of Body Angular Velocity Signal"       
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+[68] "Std of FFT of Magnitude of Jerk Signal of Body Angular Velocity"      
+      A number: the mean of the observations described in the variable taken by a given subject in [1] performing a given activity in [2], a total of 180 combinations
+
