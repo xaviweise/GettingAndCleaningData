@@ -18,7 +18,7 @@ code, and subject_test.txt/subject_train.txt, with a numeric code identifying th
 1. Merging the test and train datasets into a single one
 2. Identifying the activities performed by a verbal description instead of a numeric code. For the translation, see Codebook.Rmd
 3. From the total number of estimations taken from the observations, only the estimations of mean and standard deviation are selected, which add
-to 66 types of observations. The different observations are described Codebook.Rmd
+to 66 types of observations. The criteria used to select those was selecting the observations containing the mean() ans std() subfix. Notice that there are other variables like meanFreq that are not means of the observations types per ser (not statistics of the observations) and they are not included in the tidy data set. The different observations are described Codebook.Rmd
 4. The tidy data set contains the mean per subject of activity of those observations, in a total of 180 combinations. Subjects are identified by
 a number, activities by a verbal description. 
 
